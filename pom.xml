@@ -17,16 +17,11 @@
   </dependencies>
   <build>
     <finalName>JenkinsWar</finalName>
-    <plugins>
+   <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
-        <version>3.2.1-SNAPSHOT</version>
-        <configuration>
-          <webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>
-        </configuration>
       </plugin>
-    </plugins>
   </build>
 </project>
 
